@@ -1,5 +1,7 @@
-body {
-  background-color: gray;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -26,6 +28,7 @@ body {
 
   .header_img {
     width: 100px;
+    margin-top: 12px;
   }
 }
  
