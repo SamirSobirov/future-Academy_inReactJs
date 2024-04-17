@@ -18,7 +18,16 @@ body {
 }
   
   
+.header_logo {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
 
+  .header_img {
+    width: 100px;
+  }
+}
  
   .header_a1 {
     color: #ffffff;
