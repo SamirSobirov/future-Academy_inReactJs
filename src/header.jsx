@@ -1,13 +1,13 @@
 import header_Logo from "./assets/header_logo.svg";
 import header_logo_mini_burger_menu from "./assets/header_mini_burger_menu.svg";
 import header_logo_location from "./assets/header_logo_location.svg";
+import header_arrow from "./assets/header_arrow.svg";
+import header_login_acc from "./assets/header_login_toAcc.svg"
 
 function Header() {
   return (
     <div className="header">
       <header>
-
-
         <img className="header_logo" src={header_Logo} alt="" />
 
         <a className="header_a1">
@@ -29,13 +29,28 @@ function Header() {
           Карьера
         </a>
 
+        <a href="#" className="header_a3">
+          <img
+            className="header_logo_location"
+            src={header_logo_location}
+            alt=""
+          />
+          Нижний Новгород
+          <img className="arrow" src={header_arrow} alt="" />
+        </a>
 
-    <a href="#" className="header_a3">
-      <img className="header_logo_location" src={header_logo_location} alt="" />
-      Нижний Новгород
-    </a>
+        <a className="header_a2" href="#">
+          8 800 950-33-98
+        </a>
 
-
+        <a className="header_a1">
+          <img
+            className="header_logo_mini_burger_menu"
+            src={header_login_acc}
+            alt=""
+          />
+          Войти
+        </a>
 
       </header>
     </div>
