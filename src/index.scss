@@ -5,21 +5,18 @@ body {
 .header {
   background-color: #00093c;
   display: flex;
-
-
-header {
   align-items: center;
 
-  text-align: center;
   justify-content: center;
+
+header {
+
+  text-align: center;
   height: 100px;
   width: 100%;
 }
   
-  .header_logo {
-    width: 100px;
-    height: 51.93px;
-  }
+  
 
   .header_logo_mini_burger_menu {
     width: 20px;
@@ -33,6 +30,14 @@ header {
     color: #ffffff;
     font-size: 17px;
     margin-left: 6px;
+    text-decoration: none;
+
+  }
+  .header_a2 {
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 40px;
+    text-decoration: none;
 
   }
 }
