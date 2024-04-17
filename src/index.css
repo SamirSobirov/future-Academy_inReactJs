@@ -24,6 +24,7 @@ a:hover {
 }
 
 body {
+  background-color: #fff;
   margin: 0;
   display: flex;
   place-items: center;
