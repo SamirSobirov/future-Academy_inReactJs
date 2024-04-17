@@ -8,9 +8,10 @@ body {
   align-items: center;
 
   justify-content: center;
-
-header {
-
+  
+  header {
+    
+    white-space: nowrap;
   text-align: center;
   height: 100px;
   width: 100%;
@@ -18,19 +19,20 @@ header {
   
   
 
-  .header_logo_mini_burger_menu {
-    width: 20px;
-    height: 15px;
-    margin-left: 60px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
+ 
   .header_a1 {
     color: #ffffff;
     font-size: 17px;
-    margin-left: 6px;
     text-decoration: none;
+    .header_logo_mini_burger_menu {
+      margin-right: 5px;
+      width: 20px;
+      height: 15px;
+      margin-left: 60px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
 
   }
   .header_a2 {
@@ -38,6 +40,19 @@ header {
     font-size: 17px;
     margin-left: 40px;
     text-decoration: none;
+
+  }
+
+  .header_a3 {
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 40px;
+    text-decoration: none;
+    
+
+    .header_logo_location {
+      margin-right: 7px;  
+    }
 
   }
 }

@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
       <header>
 
-        
+
         <img className="header_logo" src={header_Logo} alt="" />
 
         <a className="header_a1">
@@ -29,6 +29,11 @@ function Header() {
           Карьера
         </a>
 
+
+    <a href="#" className="header_a3">
+      <img className="header_logo_location" src={header_logo_location} alt="" />
+      Нижний Новгород
+    </a>
 
 
 
