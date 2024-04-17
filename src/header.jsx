@@ -5,6 +5,8 @@ function Header() {
   return (
     <div className="header">
       <header>
+
+        <div className="header_all">
         <img className="header_logo" src={header_Logo} alt="" />
 
         
@@ -16,7 +18,7 @@ function Header() {
           />
           <p className="header_p1">Все курсы</p>
 
-       
+          </div>
       </header>
     </div>
   );
