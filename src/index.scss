@@ -1,0 +1,27 @@
+.header {
+  background-color: #00093c;
+  display: flex;
+  align-items: start;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  
+
+  .header_logo {
+    width: 100px;
+    height: 51.93px;
+    margin-left: 380px;
+    margin-top: 14px;
+  }
+
+  .header_logo_mini_burger_menu {
+    width: 20px;
+    height: 15px;
+    margin-left: 60px;
+    
+    
+  }
+  .header_p1 {
+    color:#FFFFFF;
+  }
+}
