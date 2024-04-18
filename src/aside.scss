@@ -1,0 +1,116 @@
+.main_text {
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  width: 1180px;
+  //   background-color: gray;
+
+  hr {
+    margin-top: 15px;
+  }
+
+  .main_p {
+    font-size: 44px;
+    font-weight: 900px;
+    font-style: Montserrat;
+    margin-top: 36px;
+  }
+
+  .age_selection {
+    margin-top: 55px;
+
+    display: flex;
+    margin-left: 20%;
+
+    .age_btn {
+      background-color: #fff;
+
+      display: flex;
+      width: 127px;
+      border: 42px;
+
+      .age_btn_p {
+        margin-top: 8px;
+        color: black;
+        font-size: 16px;
+        margin-left: 15px;
+      }
+
+      p {
+        margin-top: 5px;
+        font-size: 10px;
+        color: #4f4f4f;
+      }
+    }
+  }
+
+  .main_line {
+    width: 100%;
+    height: 1.5px;
+    margin-top: 14px;
+    background-color: #e0e0e0;
+  }
+
+//   .block {
+// align-items: end;
+// text-align: start;
+//     width: 900px;
+//     margin-top: 26px;
+//     margin-left: 22%;
+//     // background-color: gray;
+
+//     .coursesCat_p {
+//       font-size: 16px;
+//       font-weight: 500;
+//     }
+
+//     .btns {
+//       align-items: center;
+//       text-align: end;
+      
+//       button {
+//         white-space: nowrap;
+//         gap: 20px;
+//         border: none;
+//         width: 150px;
+//         height: 50px;
+//         margin-top: 24px;
+//         background-color: rgb(247, 247, 247);
+//         gap: 20px;
+//       }
+//     }
+//   }
+
+}
+
+.level_aside {
+  width: 15%;
+  align-items: start;
+  text-align: left;
+  justify-self: start;
+
+  .aside_block {
+    display: flex;
+    
+  }
+  
+  background-color: gray;
+  // display: flex;
+  flex-direction: column;
+
+
+  .aside_p {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+
+  form {
+    display: flex;
+
+    flex-direction: column;
+
+    input {
+    }
+  }
+}

@@ -48,14 +48,14 @@ function Header() {
           8 800 950-33-98
         </a>
 
-        <a className="header_a1">
+        <button className="header_btn1">
           <img
             className="header_logo_mini_burger_menu"
             src={header_login_acc}
             alt=""
           />
           Войти
-        </a>
+        </button>
 
       </header>
     </div>
