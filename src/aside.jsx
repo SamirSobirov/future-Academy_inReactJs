@@ -11,9 +11,12 @@ function Asides() {
 
       <div className="age_selection">
         
-        <button btn_age_sec>
+        <button className="age_btn">
             <img src={children_ageSelection} alt="" />
-            <p><b>Дети</b></p>
+            <p className="age_btn_p"><b>Дети </b></p>
+            
+            <p>8 — 14 лет</p>
+
         </button>
       </div>
 

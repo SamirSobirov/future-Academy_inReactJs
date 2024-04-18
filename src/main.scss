@@ -5,20 +5,38 @@
   width: 1180px;
   background-color: gray;
 
-
   .main_p {
     font-size: 44px;
-    font-weight: 700px;
+    font-weight: 900px;
     font-style: Montserrat;
     margin-top: 36px;
   }
 
-
-  .btn_age_sec {
+  .age_selection {
+    margin-top: 55px;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
+
+    .age_btn {
+      display: flex;
+      width: 115px;
+      height: 40px;
+      border: 42px;
+
+      .age_btn_p {
+        margin-left: 15px;
+        margin-top: 10px;
+        color: black;
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 10px;
+        color: #4F4F4F;
+
+      }
+    }
   }
 }
-
