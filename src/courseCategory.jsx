@@ -69,7 +69,10 @@ function CourseCategory() {
           <button>Soft skills</button>
         </div>
       </div>
+
     </div>
+
+    
   );
 }
 
