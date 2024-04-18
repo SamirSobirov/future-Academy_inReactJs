@@ -6,7 +6,7 @@ function Asides() {
       <div className="main_text">
         
 
-        <p className="main_p">Все программы обучения</p>
+        <p className="main_p"><b>Все программы обучения</b></p>
 
 
       <div className="age_selection">
@@ -26,9 +26,9 @@ function Asides() {
             <img src={children_ageSelection} alt="" />
 
             <div>
-            <p className="age_btn_p"><b>Дети </b></p>
+            <p className="age_btn_p"><b> Подростки</b></p>
             
-            <p>8 — 14 лет</p>
+            <p>14 — 18 лет</p>
             </div>
 
         </button>
@@ -38,15 +38,17 @@ function Asides() {
             <img src={children_ageSelection} alt="" />
 
             <div>
-            <p className="age_btn_p"><b>Дети </b></p>
+            <p className="age_btn_p"><b>Взрослые </b></p>
             
-            <p>8 — 14 лет</p>
+            <p>18 — ∞ </p>
             </div>
 
         </button>
       </div>
 
+      <div className="main_line"></div>
       </div>
+      
 
     </main>
   );
