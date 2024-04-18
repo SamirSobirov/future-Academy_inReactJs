@@ -68,29 +68,11 @@ function Asides() {
         </div>
         </div> */}
       </div>
-
-
-      <div className="level_aside">
-        <div className="aside_block">
-          <p className="aside_p">Уровень сложности</p>
-
-          <form action="">
-            <input type="radio" />
-            <label htmlFor="html">Новичок</label>
-
-            <input type="radio" />
-            <label htmlFor="html">Новичок</label>
-
-            <input type="radio" />
-            <label htmlFor="html">Новичок</label>
-
-            <input type="radio" />
-            <label htmlFor="html">Новичок</label>
-          </form>
-        </div>
-        </div>
-
     </main>
+      
+
+
+      
   );
 }
 

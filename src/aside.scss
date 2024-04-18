@@ -83,34 +83,3 @@
 
 }
 
-.level_aside {
-  width: 15%;
-  align-items: start;
-  text-align: left;
-  justify-self: start;
-
-  .aside_block {
-    display: flex;
-    
-  }
-  
-  background-color: gray;
-  // display: flex;
-  flex-direction: column;
-
-
-  .aside_p {
-    font-weight: 500;
-    font-size: 16px;
-  }
-
-
-  form {
-    display: flex;
-
-    flex-direction: column;
-
-    input {
-    }
-  }
-}
