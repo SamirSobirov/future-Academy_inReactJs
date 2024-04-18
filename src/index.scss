@@ -13,15 +13,16 @@
   align-items: center;
 
   justify-content: center;
+  white-space: nowrap;
   
   header {
     
-    white-space: nowrap;
   text-align: center;
   height: 100px;
   width: 100%;
 }
   
+
   
 .header_logo {
   align-items: center;
@@ -34,14 +35,21 @@
     margin-top: 12px;
   }
 }
+
+.header_btn1 {
+  font-size: 17px;
+text-decoration: none;
+background-color: #00093c;
+color: white;
+border: none;
+margin-left: 40px;
+}
  
-  .header_btn1 {
-    
+  .header_a1 {
+    color: #ffffff;
     font-size: 17px;
     text-decoration: none;
-    background-color: #00093c;
-    color: white;
-    border: none;
+
     
     .header_logo_mini_burger_menu {
       margin-right: 5px;
