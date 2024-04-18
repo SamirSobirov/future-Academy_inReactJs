@@ -1,3 +1,5 @@
+import card_phone from "./assets/card_phone.svg";
+
 function CourseCategory() {
   return (
     <div className="container">
@@ -24,13 +26,12 @@ function CourseCategory() {
             <input type="radio" />
             <label htmlFor="html">Читер</label>
           </div>
-
         </form>
 
-          <hr />
+        <hr />
 
-          <br />
-          <p className="aside_p">Тип обучения</p>
+        <br />
+        <p className="aside_p">Тип обучения</p>
         <form>
           <div>
             <input type="radio" />
@@ -46,12 +47,7 @@ function CourseCategory() {
             <input type="radio" />
             <label htmlFor="html">Курс</label>
           </div>
-
-         
-
         </form>
-
-        
       </div>
 
       <div className="direction">
@@ -68,11 +64,80 @@ function CourseCategory() {
           <button>Блогинг</button>
           <button>Soft skills</button>
         </div>
+
+
+<div className="box">
+        <div className="all_card">
+          <div className="card">
+            <p>Программа</p>
+
+            <div className="img_text">
+              <img src={card_phone} alt="" />
+              <p className="img_p">«Разработка мобильных приложений»</p>
+            </div>
+
+            <div className="footer_p">
+                <p>Разработчик мобильных приложений создаёт <br /> приложения, которыми люди ежедневно пользуются <br />
+                на смартфонах, умных часах и планшетах. 
+                </p>
+            </div>
+
+            <div className="end_p">
+                <p>24 месяца</p>
+            </div>
+
+          </div>
+
+          </div>
+
+
+
+
+
+
+          <div className="all_card">
+          <div className="card">
+            <p>Программа</p>
+
+            <div className="img_text">
+              <img src={card_phone} alt="" />
+              <p className="img_p">«Разработка мобильных приложений»</p>
+            </div>
+
+            <div className="footer_p">
+                <p>Разработчик мобильных приложений создаёт <br /> приложения, которыми люди ежедневно пользуются <br />
+                на смартфонах, умных часах и планшетах. 
+                </p>
+            </div>
+
+            <div className="end_p">
+                <p>24 месяца</p>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+        
       </div>
-
     </div>
-
-    
   );
 }
 
