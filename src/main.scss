@@ -21,21 +21,20 @@
 
     .age_btn {
       display: flex;
-      width: 115px;
-      height: 40px;
+      width: 127px;
+      height: 49px;
       border: 42px;
 
       .age_btn_p {
-        margin-left: 15px;
-        margin-top: 10px;
+        margin-top: 8px;
         color: black;
         font-size: 16px;
       }
 
       p {
+        margin-top: 5px;
         font-size: 10px;
-        color: #4F4F4F;
-
+        color: #4f4f4f;
       }
     }
   }
