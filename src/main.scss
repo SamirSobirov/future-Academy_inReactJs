@@ -14,16 +14,18 @@
 
   .age_selection {
     margin-top: 55px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    
+    
+    
     display: flex;
+    margin-left: 20%;
 
     .age_btn {
+        
       display: flex;
       width: 127px;
-      height: 49px;
       border: 42px;
+
 
       .age_btn_p {
         margin-top: 8px;

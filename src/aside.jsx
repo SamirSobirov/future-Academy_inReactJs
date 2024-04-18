@@ -21,6 +21,29 @@ function Asides() {
             </div>
 
         </button>
+
+        <button className="age_btn">
+            <img src={children_ageSelection} alt="" />
+
+            <div>
+            <p className="age_btn_p"><b>Дети </b></p>
+            
+            <p>8 — 14 лет</p>
+            </div>
+
+        </button>
+
+
+        <button className="age_btn">
+            <img src={children_ageSelection} alt="" />
+
+            <div>
+            <p className="age_btn_p"><b>Дети </b></p>
+            
+            <p>8 — 14 лет</p>
+            </div>
+
+        </button>
       </div>
 
       </div>
