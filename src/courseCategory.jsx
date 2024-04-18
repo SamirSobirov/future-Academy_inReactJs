@@ -25,8 +25,33 @@ function CourseCategory() {
             <label htmlFor="html">Читер</label>
           </div>
 
-          <hr />
         </form>
+
+          <hr />
+
+          <br />
+          <p className="aside_p">Тип обучения</p>
+        <form>
+          <div>
+            <input type="radio" />
+            <label htmlFor="html">Любой</label>
+          </div>
+
+          <div>
+            <input type="radio" />
+            <label htmlFor="html">Профессия</label>
+          </div>
+
+          <div>
+            <input type="radio" />
+            <label htmlFor="html">Курс</label>
+          </div>
+
+         
+
+        </form>
+
+        
       </div>
 
       <div className="direction">

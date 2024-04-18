@@ -8,7 +8,7 @@
 .container {
     display: flex;
     margin-top: 30px;
-    background-color: gray;
+    // background-color: gray;
     // align-items: center;
     // text-align: start;
     // justify-content: center;
@@ -20,7 +20,7 @@
 .level_aside {
     
    width: 200px;
-   background-color: green;
+//    background-color: green;
    align-items: start;
    text-align: left;
    justify-self: start;
@@ -51,6 +51,7 @@
         }
 
         hr {
+            margin-top: 24px;
             height: 1.5px;
 
         }
@@ -58,22 +59,4 @@
   
 
     
-    .direction {
-        .btns_direction {
-            margin-top: 30px;
-
-            button {
-                height: 50px;
-                
-            }
-        }
-        
-
-        .direction_p {
-            font-size: 16px;
-            font-weight: 500;
-        }
-
-       
-    }
   }
