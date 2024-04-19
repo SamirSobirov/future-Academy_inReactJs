@@ -84,6 +84,8 @@ function CourseCategory() {
 
             <div className="end_p">
                 <p>24 месяца</p>
+
+                
             </div>
 
           </div>
@@ -112,6 +114,9 @@ function CourseCategory() {
 
             <div className="end_p">
                 <p>24 месяца</p>
+
+
+                <button><b>-10%</b></button>
             </div>
 
           </div>
