@@ -49,24 +49,6 @@ function Asides() {
         <div className="main_line"></div>
 
 
-        {/* <div className="block">
-            <p className="coursesCat_p">Направление</p>
-
-
-        <div className="btns">
-            <button>Робототехника</button>
-            <button>Создание игр</button>
-            <button>Web-разработка</button>
-            <button>Мультимедиа</button>
-            <button>Шахматы</button>
-            <button>3D-моделирование и дизайн</button>
-            <br />
-            <button>Английский язык</button>
-            <button>Блогинг</button>
-            <button>Soft skills</button>
-
-        </div>
-        </div> */}
       </div>
     </main>
       
