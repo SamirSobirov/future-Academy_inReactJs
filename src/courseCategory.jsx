@@ -95,7 +95,7 @@ function CourseCategory() {
 
 
 
-          <div className="all_card">
+          <div className="all_cardd">
           <div className="card">
             <p>Программа</p>
 

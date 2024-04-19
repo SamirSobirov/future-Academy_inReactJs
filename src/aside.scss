@@ -138,6 +138,69 @@
         }
       }
     }
+
+
+
+
+    
+}
+
+
+
+
+.all_cardd{
+  width: 430px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #FFCE94;
+  margin-top: 70px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+
+  .card{
+    .end_p {
+      p {
+        font-weight: 400;
+        color: black;
+      }
+    }
+
+    p {
+      align-items: start;
+      text-align: left;
+      padding-left: 28px;
+      padding-top: 27px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #4F4F4F;
+
+    }
+
+
+    .img_text {
+      display: flex;
+
+      img {
+        padding-top: 16px;
+        padding-left: 20px;
+      }
+
+      .img_p {
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        // padding-right: 30px;
+
+      }
+    }
+  }
+
+
+
+
+  
 }
 
 
